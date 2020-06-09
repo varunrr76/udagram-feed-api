@@ -4,10 +4,10 @@ export const config = {
   database: process.env.POSTGRESS_DATABASE,
   host: process.env.POSTGRESS_HOST,
   dialect: 'postgres',
+  url: process.env.URL,
   aws_region: process.env.AWS_REGION,
   aws_profile: process.env.AWS_PROFILE,
   aws_media_bucket: process.env.AWS_MEDIA_BUCKET,
-  url: process.env.URL,
   jwt: {
     secret: process.env.JWT_SECRET,
   },
