@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import * as c from '../../../config/config';
+import * as c from '../config/config';
 import { NextFunction } from 'connect';
 import * as jwt from 'jsonwebtoken';
 
