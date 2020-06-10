@@ -1,5 +1,5 @@
 export const config = {
-  appenviron: process.env.APP_ENVIRON,
+  appenviron: process.env.API_ENVIRON,
   username: process.env.POSTGRESS_USERNAME,
   password: process.env.POSTGRESS_PASSWORD,
   database: process.env.POSTGRESS_DATABASE,
