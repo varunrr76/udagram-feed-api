@@ -15,12 +15,12 @@ FROM node:13
 # # Confirm installation
 # RUN aws --version
 
-# # Create app directory
-# WORKDIR /usr/src/app
+# Create app directory
+WORKDIR /usr/src/app
 
 # Install app dependencies by copying
 # package.json and package-lock.json
-COPY package*.json ./
+COPY package*.json ./usr/local/bin/
 
 # Install dependencies
 RUN npm install
